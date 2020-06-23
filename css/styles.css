@@ -27,9 +27,12 @@ hr {
   font-size: 1rem;
   background-color: #ff66c4;
   padding: 0 20% 0 11%;
-  
+  color: white;
 }
 
+.navbar .navbar-toggler {
+  color: white;
+}
 
 
 .div-nav a{
@@ -187,4 +190,37 @@ h2 {
 #footer p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .head-text {
+    padding-top: 10%;
+  }
+
+  .logo {
+    width: 80%;
+   
+    }
+
+  .img {
+    text-align: center;
+    
+  }
+
+  #sobre {
+    text-align: center;
+  }
+
+  .text-sobre-1 {
+    padding-top: 4rem;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .text-sobre {
+    text-align: left;
+  }
+
+
+
 }
