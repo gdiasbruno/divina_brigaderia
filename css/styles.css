@@ -176,6 +176,14 @@ h2 {
   text-align: center;
   background-color: white;
   padding: 2rem 0;
+  
+  
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  
+  margin-top: 100px;
+  left: 50%;
 }
 
 .fab2 {
@@ -193,6 +201,8 @@ h2 {
 }
 
 @media screen and (max-width: 1000px) {
+  
+  
   .head-text {
     padding-top: 10%;
   }
@@ -222,5 +232,13 @@ h2 {
   }
 
 
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .nav {
+    padding: 0;
+  }
 
 }
