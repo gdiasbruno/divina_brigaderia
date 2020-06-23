@@ -204,7 +204,7 @@ h2 {
   
   
   .head-text {
-    padding-top: 10%;
+    padding-top: 30%;
   }
 
   .logo {
@@ -229,6 +229,7 @@ h2 {
 
   .text-sobre {
     text-align: left;
+    width: 100%;
   }
 
 
