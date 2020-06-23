@@ -1,0 +1,190 @@
+body {
+  background-color: #ff66c4;
+  
+}
+
+hr {
+  border: dotted white 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-family: 'Crete Round', serif;
+  font-size: 2rem;
+  
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+
+.navbar {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 1rem;
+  background-color: #ff66c4;
+  padding: 0 20% 0 11%;
+  
+}
+
+
+
+.div-nav a{
+  color:white;
+}
+
+.nav-item {
+  padding: 0 0.5rem;
+}
+
+/* HEADER */
+
+.header-img {
+  width: 25rem;
+}
+
+#header {
+  background-color:  #ff66c4;
+  color: white;
+  padding-top: 5%;
+
+}
+
+#header .btn {
+  margin: 3% 0;
+}
+
+#header h1 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.head-text {
+  padding: 3% 3% 0 10%;
+}
+
+/* SOBRE */
+
+h2 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+#sobre {
+  color: white;
+  padding: 5% 3%;
+}
+
+.img {
+  text-align: right;
+}
+
+.text-sobre {
+  padding-top: 2rem;
+  width: 70%;
+}
+
+/* PRODUTOS */
+
+#produtos {
+  text-align: center;
+  padding: 5% 3% 5% 3%;
+}
+
+.card-deck {
+  padding-top: 4rem;
+  width:80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.card-img-top {
+  height: 50%;
+}
+
+.card {
+  color: #ff66c4;
+  font-family: 'Hind Siliguri', sans-serif;
+  
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#produtos {
+  text-align: center;
+  color: white;
+}
+
+#produtos .btn {
+  margin: 2rem 0;
+  
+}
+
+/* CONTATO */
+
+#contato {
+  padding: 0 10% 10%;
+  text-align: center;
+  margin:0;
+  color: white;
+}
+
+#contato h1 {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: white;
+}
+
+#contato .btn {
+  margin: 3%;
+}
+
+.wapp {
+  background-color: #00BB2D;
+  color: white;
+}
+
+.wapp:hover {
+  color: white;
+  background-color: #006400;
+}
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 2rem 0;
+}
+
+.fab2 {
+  margin: 0 1rem 2rem;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
