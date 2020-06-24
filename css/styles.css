@@ -203,13 +203,47 @@ h2 {
 @media screen and (max-width: 1000px) {
   
   
-  .head-text {
-    padding-top: 30%;
+  
+  .navbar {
+    padding: 0 5% 0;
+    
   }
 
+  .logo-mobile img {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+  }
+  
+  .logo-mobile {
+    margin: 0;
+  }
+
+  .navbar-brand {
+    visibility: hidden;
+
+  }
+  
+  hr {
+    margin: 0 auto;
+  }
+
+  .head-text {
+    padding-top: 10%;
+  }
+
+  .header-img img {
+    width: 100%;
+    height:auto;
+  }
+
+  
+
+  /* SOBRE */
+
   .logo {
-    width: 80%;
-   
+    width: 0;
+    visibility: hidden;
     }
 
   .img {
@@ -221,15 +255,15 @@ h2 {
     text-align: center;
   }
 
+  
+
   .text-sobre-1 {
-    padding-top: 4rem;
-    position: relative;
-    margin: 0 auto;
+    text-align: center;
+    width: 100%;
   }
 
   .text-sobre {
-    text-align: left;
-    width: 100%;
+    margin: auto;
   }
 
 
