@@ -61,6 +61,7 @@ hr {
   background-color:  #ff66c4;
   color: white;
   padding-top: 5%;
+  background-image: url("/images/bg_header.png");
 
 }
 
@@ -89,6 +90,7 @@ h2 {
 #sobre {
   color: white;
   padding: 5% 3%;
+  background-image: url("/images/bg_hist.png");
 }
 
 .img {
@@ -98,6 +100,10 @@ h2 {
 .text-sobre {
   padding-top: 2rem;
   width: 70%;
+}
+
+.text-sobre p{
+  line-height: 2rem;
 }
 
 /* PRODUTOS */
@@ -119,7 +125,7 @@ h2 {
 }
 
 .card {
-  color: #ff66c4;
+  color:black;
   font-family: 'Hind Siliguri', sans-serif;
   
 }
@@ -141,6 +147,8 @@ h2 {
 #produtos {
   text-align: center;
   color: white;
+  background-image: url("/images/bg_prod.png");
+
 }
 
 #produtos .btn {
@@ -155,6 +163,8 @@ h2 {
   text-align: center;
   margin:0;
   color: white;
+  background-image: url("/images/bg_contato.png");
+
 }
 
 #contato h1 {
@@ -243,6 +253,9 @@ h2 {
     height:auto;
   }
 
+  #header {
+    background-image: none;
+  }
   
 
   /* SOBRE */
@@ -259,6 +272,7 @@ h2 {
 
   #sobre {
     text-align: center;
+    background-image: none;
   }
 
   
@@ -272,7 +286,13 @@ h2 {
     margin: auto;
   }
 
-
+  #produtos {
+    background-image: none;
+  }
+  
+  #contato {
+    background-image: none;
+  }
 
 }
 
