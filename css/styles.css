@@ -61,7 +61,7 @@ hr {
   background-color:  #ff66c4;
   color: white;
   padding-top: 5%;
-  background-image: url("/images/bg_header.png");
+  background-image: url("https://raw.githubusercontent.com/gdiasbruno/divina_brigaderia/master/images/bg_header.png");
 
 }
 
@@ -90,7 +90,7 @@ h2 {
 #sobre {
   color: white;
   padding: 5% 3%;
-  background-image: url("/images/bg_hist.png");
+  background-image: url("https://raw.githubusercontent.com/gdiasbruno/divina_brigaderia/master/images/bg_hist.png");
 }
 
 .img {
@@ -147,7 +147,7 @@ h2 {
 #produtos {
   text-align: center;
   color: white;
-  background-image: url("/images/bg_prod.png");
+  background-image: url("https://raw.githubusercontent.com/gdiasbruno/divina_brigaderia/master/images/bg_prod.png");
 
 }
 
@@ -163,7 +163,7 @@ h2 {
   text-align: center;
   margin:0;
   color: white;
-  background-image: url("/images/bg_contato.png");
+  background-image: url("https://raw.githubusercontent.com/gdiasbruno/divina_brigaderia/master/images/bg_contato.png");
 
 }
 
