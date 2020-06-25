@@ -45,8 +45,16 @@ hr {
 
 /* HEADER */
 
-.header-img {
-  width: 25rem;
+.logo-mobile img {
+  visibility: hidden;
+  height: 0;
+}
+
+
+
+.header-img img{
+  width: 60%;
+  height: auto;
 }
 
 #header {
@@ -63,7 +71,7 @@ hr {
 #header h1 {
   font-family: 'Hind Siliguri', sans-serif;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .head-text {
@@ -215,9 +223,7 @@ h2 {
     padding-top: 10%;
   }
   
-  .logo-mobile {
-    margin: 0;
-  }
+  
 
   .navbar-brand {
     visibility: hidden;
@@ -276,4 +282,13 @@ h2 {
     padding: 0;
   }
 
+  .logo-mobile {
+    margin: 0;
+    visibility: visible;
+    display: block;
+  }
+  .logo-mobile img {
+    visibility: visible;
+    display: block;
+  }
 }
