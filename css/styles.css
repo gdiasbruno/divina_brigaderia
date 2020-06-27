@@ -1,6 +1,5 @@
 body {
   background-color: #ff66c4;
-  background-image: url("https://www.transparenttextures.com/patterns/p4.png");
 }
 
 hr {
@@ -298,6 +297,10 @@ h2 {
 
 
 @media screen and (max-width: 500px) {
+  body {
+      background-image: url("https://www.transparenttextures.com/patterns/p4.png");
+  }
+  
   .nav {
     padding: 0;
   }
